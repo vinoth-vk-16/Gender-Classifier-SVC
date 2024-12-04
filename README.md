@@ -14,6 +14,7 @@ Joblib (for model persistence)
 
 
 **Dataset**
+
 1.train.csv
 **Features:**
 session_id: Unique session identifier
@@ -31,6 +32,7 @@ ProductList: Products viewed during the session, separated by '/' and terminated
 
 
 Project Workflow
+
 1. Data Preprocessing
 Tokenization: The ProductList is tokenized into individual products.
 Vectorization: The product list is transformed into a bag-of-words representation using CountVectorizer.
@@ -50,9 +52,11 @@ Heatmap: Displays the average session duration for each actual vs predicted gend
 ![f574dfe9-4bb2-4a34-9150-1db3f691b258](https://github.com/user-attachments/assets/015a24a6-8acc-406f-b72a-797b5c546a54)
 
 **Note**
+
 Due to the large size of the trained model files, they could not be uploaded to GitHub. Please run the code locally to train and build the model on your system.
 
 **Conclusion**
+
 This Gender Classification project uses Support Vector Classification (SVC) to predict the gender of users based on their product list interaction and session duration. The model utilizes a custom tokenizer to process product lists, converting them into a bag-of-words representation for the classifier. The session duration is also used as an additional feature to improve prediction accuracy.
 
 Key features of the project:
