@@ -1,7 +1,9 @@
 **﻿Gender Classification Using Support Vector Classifier (SVC)**
+
 This repository contains a machine learning project that predicts the gender of users based on their product viewing history and session duration using a Support Vector Classifier (SVC). The dataset used consists of user session information, including start and end times and the list of products viewed during each session.
 
 **Introduction**
+
 In this project, we aim to classify the gender of users based on their online product viewing behavior and session duration. By leveraging a bag-of-words representation of product lists and session duration as features, the model predicts whether a user is male or female.
 
 **Technologies Used:**
