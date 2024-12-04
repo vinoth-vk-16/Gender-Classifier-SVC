@@ -8,10 +8,10 @@ In this project, we aim to classify the gender of users based on their online pr
 
 **Technologies Used:**
 
-Python
-Scikit-learn (SVC for classification)
-Pandas & NumPy (for data manipulation)
-Matplotlib & Seaborn (for visualization)
+Python,
+Scikit-learn (SVC for classification),
+Pandas & NumPy (for data manipulation),
+Matplotlib & Seaborn (for visualization),
 Joblib (for model persistence)
 
 
